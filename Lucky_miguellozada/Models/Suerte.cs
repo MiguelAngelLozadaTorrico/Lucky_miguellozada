@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Lucky_miguellozada.Models
+namespace Lucky_miguellozada.Models 
 {
     public class Suerte
     {
