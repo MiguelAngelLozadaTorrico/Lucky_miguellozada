@@ -30,14 +30,14 @@ namespace Lucky_miguellozada.Controllers
             var max = list.Count;
             int index = new Random().Next(0, max);
 
-            var suerte = list[index];
+            var suerten = list[index];
 
-            if (suerte == null)
+            if (suerten == null)
             {
                 return NoContent();
             }
 
-            return suerte;
+            return suerten;
         }
     }
 }
