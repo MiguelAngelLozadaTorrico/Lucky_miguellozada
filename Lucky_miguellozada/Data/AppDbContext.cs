@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Lucky_miguellozada.Data
-{
+{ 
     public class AppDbContext : DbContext
     {
         public DbSet<Suerte> Suertesita { get; set; }
