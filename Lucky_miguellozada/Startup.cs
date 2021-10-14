@@ -35,7 +35,7 @@ namespace Lucky_miguellozada
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Lucky_miguellozada", Version = "v1" });
             });
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(
-Configuration.GetConnectionString("MiguelContext")));
+Configuration.GetConnectionString("MiguelContext"))); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
